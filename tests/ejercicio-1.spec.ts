@@ -6,7 +6,6 @@ describe('PlaceHolder', () => {
 
   it("PlaceHolder", () => {
     expect(placeholder()).to.be.true;
-    expect(placeholder()).not.to.be.false;
   });
 
 });
