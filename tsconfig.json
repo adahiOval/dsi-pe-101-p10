@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "tests",
+    "./node_modules",
+    "./dist"
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "outDir": "./dist",
+    "sourceMap": true
+  }
+}
